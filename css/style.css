@@ -1,0 +1,32 @@
+
+#menu, #menu ul {
+    margin:0 auto;
+    padding:0;
+}
+#menu {
+	display: inline-block;
+	list-style: none;
+	border: 2px double #FF2427;
+}
+#menu li {
+    float: left;
+    position: relative;
+    list-style: none;
+
+}
+#menu > li:hover > ul {
+    display: block;
+}
+#menu > li > ul {
+    display: none;
+    position: absolute;
+}
+#menu li a {
+    display:block;
+    padding:10px 10px;
+    text-decoration:none;
+   	color:#555555;
+}
+#menu li a:hover {
+    color:#c00;
+}
